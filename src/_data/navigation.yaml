@@ -1,10 +1,9 @@
----
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: What We Do
+    url: "#what-we-do"
+  - text: Events
+    url: "#events"
+  - text: Who We Are
+    url: "#who-we-are"
+  - text: Resbaz Arizona 2023
+    url: /resbaz/Arizona2023/
