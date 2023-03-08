@@ -10,12 +10,12 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Install and Build 🔧 # This compiles the site into the docs folder
+      - name: Install and Build 🔧 # This compiles the site into the _site folder
         run: |
           npm ci
           npm run build
 
-      - name: Deploy 🚀 # This step commits the contents of the docs folder into the gh-pages branch (which github serves as a website)
+      - name: Deploy 🚀 # This step commits the contents of the _site folder into the gh-pages branch (which github serves as a website)
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: docs
+          folder: _site
