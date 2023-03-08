@@ -1,24 +1,16 @@
-name: Node.js CI
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+name: Eleventy Build
+on: [push]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-
+  build_deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@main
+      - name: Build
+        uses: TartanLlama/actions-eleventy@main
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run build
+          publish_dir: docs
+          publish_branch: gh-pages
+          github_token: ${{ secrets.GITHUB_TOKEN }}
