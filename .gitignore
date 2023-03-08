@@ -5,6 +5,3 @@ node_modules/
 .vscode/
 *git/
 .env
-
-# Local Netlify folder
-.netlify
