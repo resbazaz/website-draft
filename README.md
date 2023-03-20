@@ -1,47 +1,55 @@
-# Neat Starter
-
-Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind CSS
-
-## Live Demo
-
-[https://neat-starter.netlify.app/](https://neat-starter.netlify.app/)
+# Arizona Research Bazaar website
 
 ### Technologies used:
 
-- [Netlify CMS](https://www.netlifycms.org/)
+- [Node.js](https://nodejs.org/)
 - [Eleventy](https://www.11ty.dev/)
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-| ![image](https://user-images.githubusercontent.com/1884712/93762662-a62e4700-fc2d-11ea-9b2c-fda9f503402b.png) |
-| ------------------------------------------------------------------------------------------------------------- |
-
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/surjithctly/neat-starter&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
-
 ## Getting Started
 
-Detailed instructions are available in my blog. [Check it out](https://blog.surjithctly.in/neat-stack-create-a-static-website-with-netlify-cms-eleventy-alpinejs-and-tailwindcss)
+### 1\. Install Node.js
 
-### 1\. Clone this Repository
+The easiest way to do this is usually via (NVM)[https://github.com/nvm-sh/nvm#install--update-script].
 
-```
-git clone https://github.com/surjithctly/neat-starter.git
-```
+(TODO: add Linux, Windows examples)
 
-### 2\. Navigate to the directory
+On Mac OS X, these commands should work:
 
 ```
-cd neat-starter
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+source ~/.zshrc
+
+nvm install node
+
+nvm use node
+
+# If everything worked correctly, this should output the node version that was installed:
+
+node --version
 ```
 
-### 3\. Install dependencies
+### 2\. Clone this Repository
+
+```
+git clone https://github.com/resbazaz/website.git
+```
+
+### 3\. Navigate to the directory
+
+```
+cd website
+```
+
+### 4\. Install dependencies
 
 ```
 npm install
 ```
 
-### 4\. Build the project to generate the first CSS
+### 5\. Build the project to generate the first CSS
 
 This step is only required the very first time.
 
@@ -49,12 +57,36 @@ This step is only required the very first time.
 npm run build
 ```
 
-### 5\. Run Eleventy
+### 6\. Run the local server
 
 ```
 npm run start
 ```
 
-## Author
+This will start a web server running just on your local machine; if you open a browser to [http://localhost:8080](http://localhost:8080), you should see your local copy of the ResBaz website.
 
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+## How to contribute
+
+### Saving and pushing changes
+
+TODO: basic git fork + commit + PR flow
+
+### Editing page contents
+
+TODO: where to find markdown
+
+### Updating page elements
+
+TODO: where to find HTML, how includes and \_data work
+
+### Customizing styles
+
+TODO: Alpine, Tailwind stuff
+
+### Changing how Github builds and deploys the site
+
+TODO: `build.yml`
+
+### Reconfiguring the site's infrastructure
+
+TODO: `.eleventy.js`

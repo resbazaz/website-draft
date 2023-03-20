@@ -1,20 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,800;1,400&family=Sorts+Mill+Goudy&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*Your Custom CSS Goes here*/
-
 h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+  @apply text-4xl font-extrabold tracking-tighter mt-4 mb-3 lg:text-7xl;
+}
+
+h2 {
+  @apply text-2xl font-bold lg:text-4xl mt-4 mb-3;
 }
 
 h3 {
-  @apply text-2xl font-bold mb-3;
+  @apply text-2xl font-thin mt-4 mb-3;
 }
 
 /* Syntax Highlighting*/
 
-body :not(pre) > code[class*="language-"],
-body pre[class*="language-"] {
+body :not(pre) > code[class*='language-'],
+body pre[class*='language-'] {
   @apply bg-gray-800;
+}
+
+/* Main page styles */
+.main-page .hero-wrapper {
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.main-page .hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-image: linear-gradient(#1b3442b6, #00000000),
+    url('/static/img/mainPageBackground.jpg');
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  z-index: -1;
+}
+
+.main-page nav .text-gray-500:not(:hover),
+.main-page nav button {
+  color: white;
 }

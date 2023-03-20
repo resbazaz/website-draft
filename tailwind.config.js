@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./**/*.html"],
+  content: ['./**/*.html'],
   theme: {
     container: {
       center: true,
@@ -7,7 +7,18 @@ module.exports = {
     extend: {
       colors: {},
     },
+    fontFamily: {
+      sans: ['Raleway', 'Calibri', '"Trebuchet MS"', 'sans-serif'],
+      serif: [
+        '"Sorts Mill Goudy"',
+        'Georgia',
+        '"Times New Roman"',
+        'Times',
+        'serif',
+      ],
+      mono: [],
+    },
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require('@tailwindcss/typography')],
 };

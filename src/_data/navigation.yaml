@@ -1,9 +1,11 @@
 items:
   - text: What We Do
-    url: "#what-we-do"
+    url: '#what-we-do'
   - text: Events
-    url: "#events"
+    url: '#events'
   - text: Who We Are
-    url: "#who-we-are"
+    url: '#who-we-are'
+  - text: Code of Conduct
+    url: /codeOfConduct
   - text: Resbaz Arizona 2023
     url: /resbaz/Arizona2023/
