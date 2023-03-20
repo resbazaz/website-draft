@@ -1473,7 +1473,7 @@ body pre[class*='language-']{
   bottom: 0;
   overflow: hidden;
   background-image: linear-gradient(#1b3442b6, #00000000),
-    url('/static/img/mainPageBackground.jpg');
+    url('./static/img/mainPageBackground.jpg');
   background-position: center center;
   background-repeat: none;
   background-size: cover;
