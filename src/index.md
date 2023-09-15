@@ -4,7 +4,7 @@ title: ResBaz Arizona
 path: home
 ---
 
-## What we do
+## What we doo
 
 _Need help now? Want to talk? Go post in our Gitter: [resbaz/Arizona](https://gitter.im/resbaz/Arizona)_
 
