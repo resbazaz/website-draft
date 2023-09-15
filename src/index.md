@@ -24,27 +24,62 @@ Meet new people in and outside of your field. Join our supportive network of dat
 
 _Stay up to date on announcements at our Twitter: [@ResBazAZ](https://twitter.com/ResBazAZ)_
 
-_RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com/ResBazAZ/)_
+_(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com/ResBazAZ/)_
 
 ### Coffee and Code
 
-**Where**: [Slot Canyon Cafe in ENR2](https://union.arizona.edu/dining/other/slotcanyon)
+<div class="split-section">
+
+<div class="side-image">
+  <img src="/static/img/coffeeAndCode.png">
+</div>
+
+<div>
+
+**Where**: [Catalyst Cafe at BSRL](https://union.arizona.edu/dining/dining-by-district/north/#Catalyst%20Caf%C3%A9) 1230 N Cherry Ave
 
 **When**: 8.30AM - 10.30AM, every Wednesday
 
 **What**: Whether you're debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries -- join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!
 
+</div>
+</div>
+
 ### Hacky Hour
 
-**Where**: Snakes & Lattes (University Blvd)
+<div class="split-section">
+
+<div>
+
+**Where**: [Snakes & Lattes](https://www.snakesandlattes.com/tucson) 988 E University Blvd
 
 **When**: 4PM - 7PM, every Thursday
 
 **What**: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!
 
-### Related Community Events
+</div>
 
-**Tucson Python Meetup**: The goal of this group is to encourage more mingling, learning, and sharing ideas within the Tucson Python community. Everybody is welcome, no matter what your level of Python experience. Activities include presentations and workshops on everything from how to use Python to control the lights in your home, to building web applications which can scale to millions of users. For more information, see: [https://www.meetup.com/Tucson-Python-Meetup/](https://www.meetup.com/Tucson-Python-Meetup/)
+<div class="side-image">
+  <img src="/static/img/hackyHour.png">
+</div>
+
+</div>
+
+## Related Community Events
+
+### Code Commons
+
+**What**: Code Commons provides a physical space for community and collaboration. Join us to share experience, learn, mentor, discover opportunities, and work on your programming projects in the presence of others doing the same.
+
+Code Commons also aims to provide the best aspects of workplace culture for people who are otherwise isolated from other developers. This includes (but isn’t limited to) people working on free, libre, open-source software (FLOSS), and software for public service missions.
+
+[More Info](https://codecommons.net/)
+
+### Tucson Python Meetup
+
+**What**: The goal of this group is to encourage more mingling, learning, and sharing ideas within the Tucson Python community. Everybody is welcome, no matter what your level of Python experience. Activities include presentations and workshops on everything from how to use Python to control the lights in your home, to building web applications which can scale to millions of users.
+
+[More Info](https://www.meetup.com/Tucson-Python-Meetup/)
 
 ## TODO: finish and delete this stuff
 

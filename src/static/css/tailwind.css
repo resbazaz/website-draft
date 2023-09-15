@@ -16,6 +16,10 @@ h3 {
   @apply text-2xl font-thin mt-4 mb-3;
 }
 
+a {
+  @apply text-orange-500 hover:text-orange-600 visited:text-orange-700;
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*='language-'],
@@ -47,4 +51,12 @@ body pre[class*='language-'] {
 .main-page nav .text-gray-500:not(:hover),
 .main-page nav button {
   color: white;
+}
+
+.main-page .split-section {
+  display: flex;
+  gap: 1em;
+}
+.main-page .side-image {
+  width: 50em;
 }
