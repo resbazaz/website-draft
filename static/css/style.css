@@ -1412,6 +1412,11 @@ video {
   line-height: 1.5rem;
 }
 
+.\!text-white{
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1515,6 +1520,20 @@ h3{
   font-weight: 100;
 }
 
+a{
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+a:visited{
+  color: rgb(194 65 12 );
+}
+
+a:hover{
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity));
+}
+
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*='language-'],
@@ -1548,6 +1567,15 @@ body pre[class*='language-']{
 .main-page nav .text-gray-500:not(:hover),
 .main-page nav button {
   color: white;
+}
+
+.main-page .split-section {
+  display: flex;
+  gap: 1em;
+}
+
+.main-page .side-image {
+  width: 50em;
 }
 
 @media (min-width: 1024px){
@@ -1797,6 +1825,10 @@ body pre[class*='language-']{
   .lg\:prose-xl :where(.lg\:prose-xl > :last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)){
     margin-bottom: 0;
   }
+}
+
+.visited\:bg-orange-700:visited{
+  background-color: rgb(194 65 12 );
 }
 
 .hover\:border-purple-400:hover{
