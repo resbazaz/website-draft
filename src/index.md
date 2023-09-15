@@ -4,7 +4,7 @@ title: ResBaz Arizona
 path: home
 ---
 
-## What we doo
+## What we do
 
 _Need help now? Want to talk? Go post in our Gitter: [resbaz/Arizona](https://gitter.im/resbaz/Arizona)_
 
@@ -80,6 +80,13 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
 **What**: The goal of this group is to encourage more mingling, learning, and sharing ideas within the Tucson Python community. Everybody is welcome, no matter what your level of Python experience. Activities include presentations and workshops on everything from how to use Python to control the lights in your home, to building web applications which can scale to millions of users.
 
 [More Info](https://www.meetup.com/Tucson-Python-Meetup/)
+
+## Previous ResBaz Festivals
+- [festibal](resbaz/Arizona2023)
+- [festibal](resbaz/resbazTucson2019)
+- [festibal](resbaz/resbazTucson2020)
+- [festibal](resbaz/resbazTucson2021)
+- [festibal](resbaz/resbazTucson2022)
 
 ## TODO: finish and delete this stuff
 
