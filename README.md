@@ -33,8 +33,11 @@ node --version
 
 ### 2\. Clone this Repository
 
+(TODO: need to update this if/when the repo moves!)
+
 ```
-git clone https://github.com/resbazaz/website.git
+git clone https://github.com/alex-r-bigelow/resbazaz-11ty-experiment
+# git clone https://github.com/resbazaz/website.git
 ```
 
 ### 3\. Navigate to the directory
