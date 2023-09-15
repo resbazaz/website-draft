@@ -1,3 +1,8 @@
+---
+layout: default
+title: ResBaz Arizona
+path: home
+---
 ## Workshop/Course Descriptions
 
 This year's Research Bazaar has been moved totally online. In an effort to mitigate "Zoom fatigue", it will be spread over two weeks, instead of 3 days as originally planned. Details to follow!

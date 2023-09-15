@@ -83,9 +83,9 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
 
 ## Previous ResBaz Festivals
 - [Arizona 2023 festival](resbaz/Arizona2023)
-- [Arizona 2022 festival](resbaz/resbazTucson2022)
-- [Arizona 2021 festival](resbaz/resbazTucson2021)
-- [Arizona 2020 festival](resbaz/resbazTucson2020)
+- [Tucson 2022 festival](resbaz/resbazTucson2022)
+- [Tucson 2021 festival](resbaz/resbazTucson2021)
+- [Tucson 2020 festival](resbaz/resbazTucson2020)
 - [Tucson 2019 festival](resbaz/resbazTucson2019)
 
 ## TODO: finish and delete this stuff
@@ -95,6 +95,5 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
   - Borrow existing quicklinks pattern for people + pics, then delete `_data/quicklinks.yaml` and `_includes/partials/content.html`
 - Duplicate (or replace?) blog with yearly festival page
   - for consistent urls, should use `/resbaz/resbazTucson2020`, `resbaz/Arizona2023`, etc
-- Migrate existing festival pages
 - Replicate old styles... kinda
   - I might take some liberties here

@@ -1,3 +1,8 @@
+---
+layout: default
+title: ResBaz Arizona
+path: home
+---
 ## Workshop/Course Descriptions!!!
 You can find them [here](https://docs.google.com/document/d/1BUXYq9KYHxaoHiU1F-dVTvXxKlqrcCs0NsEAMDCjzo8/edit?usp=sharing).
 

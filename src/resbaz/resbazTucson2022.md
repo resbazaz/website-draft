@@ -1,3 +1,8 @@
+---
+layout: default
+title: ResBaz Arizona
+path: home
+---
 
 <style>
   @media (min-width:1280px) {
