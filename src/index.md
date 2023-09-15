@@ -82,11 +82,11 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
 [More Info](https://www.meetup.com/Tucson-Python-Meetup/)
 
 ## Previous ResBaz Festivals
-- [festibal](resbaz/Arizona2023)
-- [festibal](resbaz/resbazTucson2019)
-- [festibal](resbaz/resbazTucson2020)
-- [festibal](resbaz/resbazTucson2021)
-- [festibal](resbaz/resbazTucson2022)
+- [Arizona 2023 festival](resbaz/Arizona2023)
+- [Arizona 2022 festival](resbaz/resbazTucson2022)
+- [Arizona 2021 festival](resbaz/resbazTucson2021)
+- [Arizona 2020 festival](resbaz/resbazTucson2020)
+- [Tucson 2019 festival](resbaz/resbazTucson2019)
 
 ## TODO: finish and delete this stuff
 
