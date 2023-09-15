@@ -1,4 +1,120 @@
-<h2>Workshop/Course Descriptions!!!</h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResBaz Arizona</title>
+     
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    
+  </head>
+  <body>
+    
+<div class="w-full">
+  <nav
+    class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto"
+    x-data="{ isOpen: false }"
+    @keydown.escape="isOpen = false"
+    @click.away="isOpen = false"
+  >
+    <!--Logo etc-->
+    <div class="flex items-center font-serif">
+      <a href="/" class="text-orange-500 font-bold text-2xl"> ResBaz Arizona</a>
+    </div>
+
+    <!--Toggle button (hidden on large screens)-->
+    <button
+      @click="isOpen = !isOpen"
+      type="button"
+      class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500"
+      :class="{ 'transition transform-180': isOpen }"
+      aria-label="Menu"
+    >
+      <svg
+        class="h-6 w-6 fill-current"
+        xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 24 24"
+      >
+        <path
+          x-show="isOpen"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+        />
+        <path
+          x-show="!isOpen"
+          fill-rule="evenodd"
+          d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+        />
+      </svg>
+    </button>
+
+    <!--Menu-->
+    <div
+      class="w-full flex-grow lg:flex lg:items-center lg:w-auto"
+      :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }"
+      x-show.transition="true"
+    >
+      
+
+      <ul
+        class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center"
+      >
+        
+        <li class="nav__item mr-3 text-right">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-orange-600 py-2 px-4"
+            href="#what-we-do"
+            >What We Do</a
+          >
+        </li>
+        
+        <li class="nav__item mr-3 text-right">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-orange-600 py-2 px-4"
+            href="#events"
+            >Events</a
+          >
+        </li>
+        
+        <li class="nav__item mr-3 text-right">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-orange-600 py-2 px-4"
+            href="#who-we-are"
+            >Who We Are</a
+          >
+        </li>
+        
+        <li class="nav__item mr-3 text-right">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-orange-600 py-2 px-4"
+            href="/codeOfConduct"
+            >Code of Conduct</a
+          >
+        </li>
+        
+        <li class="nav__item mr-3 text-right">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-orange-600 py-2 px-4"
+            href="/resbaz/Arizona2023/"
+            >Resbaz Arizona 2023</a
+          >
+        </li>
+        
+      </ul>
+
+      
+    </div>
+  </nav>
+</div>
+
+<div class="container mx-auto"><h2>Workshop/Course Descriptions!!!</h2>
 <p>You can find them <a href="https://docs.google.com/document/d/1BUXYq9KYHxaoHiU1F-dVTvXxKlqrcCs0NsEAMDCjzo8/edit?usp=sharing">here</a>.</p>
 <h2>What</h2>
 <p>The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2019, events are happening at university campuses around the globe.</p>
@@ -14,3 +130,13 @@
 <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1SnwXCdH4AhlSfWAEbr1SA1Po_cP7GIbj" width="640" height="480"></iframe>
 <h2>Register</h2>
 <p><a href="https://forms.gle/bdg4t8Bzg9FTJPYn7" class="button" target="_blank">Register your interest here</a></p>
+</div>
+<footer class="flex justify-center w-full py-4 mx-auto mt-8 bg-gray-300">
+  <img src="static/img/bigLogo.png" class="h-20" />
+</footer>
+
+
+
+    <script src="/static/js/alpine.js"></script>
+  </body>
+</html>
