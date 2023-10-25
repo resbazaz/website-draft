@@ -75,6 +75,14 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
 
 [More Info](https://codecommons.net/)
 
+### Women in Data Science
+
+**What**: Women in Data Science (WiDS) Tucson is an independent event organized by the University of Arizona to coincide with the Global WiDS Conference held at Stanford University and an estimated 200+ locations worldwide annually.
+
+The Global WiDS Conference aims to inspire and educate data scientists worldwide, regardless of gender, and to support women in the field. This one-day technical conference provides an opportunity to hear about the latest data science related research and applications in a number of domains, and connect with others in the field.
+
+[More Info](https://widstucson.org/)
+
 ### Tucson Python Meetup
 
 **What**: The goal of this group is to encourage more mingling, learning, and sharing ideas within the Tucson Python community. Everybody is welcome, no matter what your level of Python experience. Activities include presentations and workshops on everything from how to use Python to control the lights in your home, to building web applications which can scale to millions of users.
