@@ -1,7 +1,16 @@
-peopleFile = FileAttachment('localData/people.json').json();
+/*
+see .gitignore for the rationale behind semiSecretFiles
+*/
+peopleFile = fetch('data/semiSecretFiles/people.json')
+  .then(response => {
+    if (response.status === 404) {
+      return fetch('data/exampleFiles/people.json');
+    }
+    return response;
+  })
+  .then(response => response.json());
 
 function randomAvatars(teamName) {
-  console.log(peopleFile, teamName);
   const team = peopleFile.data.organization.teams.nodes.find(
     (team) => team.name === teamName
   );

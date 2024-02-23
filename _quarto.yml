@@ -19,5 +19,5 @@ format:
     resources:
       - styles
       - images
-      - localData
+      - data
     toc: true

@@ -3,9 +3,6 @@
 ### Technologies used:
 
 - [Quarto](https://nodejs.org/)
-- [Eleventy](https://www.11ty.dev/)
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 
@@ -54,10 +51,10 @@ TODO: Alpine, Tailwind stuff
 
 ### Changing how Github builds and deploys the site
 
-TODO: `build.yml`
+TODO: document `.github/workflows/build.yml`
 
-Be advised that `src/_data/people.json` in your local respository is just an example file, that will be overwritten by the latest ResBazAZ teams on Github—so to update who is shown, and what teams are shown, you should edit the Github teams, not the JSON file.
+Be advised that `localData/people.json` in your local respository is just an example file, that will be overwritten by the latest ResBazAZ teams on Github—so to update who is shown, and what teams are shown, you should edit the Github teams, not the JSON file.
 
 ### Reconfiguring the site's infrastructure
 
-TODO: `.eleventy.js`
+TODO: document `_quarto.yml`

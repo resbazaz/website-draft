@@ -1,4 +1,11 @@
 .quarto
 _site
 /.quarto/
-localData
+
+# semiSecretFiles aren't really secret; they're generated from public GitHub
+# data when the website is built. Having a separate directory + only committing
+# an example file to the repo is an effort to minimize access to the convenient
+# list of detailed ResBaz participants' info. If you find development with
+# example data annoying, you can manually download the auto-generated files from
+# the published site
+data/semiSecretFiles
