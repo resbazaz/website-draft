@@ -10,7 +10,7 @@ elif [ $QUARTO_VERSION = "release" ]; then
 	QUARTO_JSON="_download.json"
 fi
 
-if [ $QUARTO_JSON != "" ]; then
+if [ "$QUARTO_JSON" != "" ]; then
 
 # create a python script and run it
 PYTHON_SCRIPT=_quarto_version.py
