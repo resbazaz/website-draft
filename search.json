@@ -4,21 +4,21 @@
     "href": "index.html",
     "title": "Research Bazaar–Arizona",
     "section": "",
-    "text": "Need help now? Want to talk? Go post in our Gitter: resbaz/Arizona\n\n\nWe support an ample community of researchers from diverse areas and levels of expertise. Whether you are just starting to learn programming or you are already an expert, we have a place for you!\n\n\n\nMeeting and working with experts from different fields can bring a new and fresh perspective to your own work! Even more, re-inforce your skill and help train a new generation of developers by teaching others.\n\n\n\nMeet new people in and outside of your field. Join our supportive network of data scientists and find out what we can do when we work together."
+    "text": "import { randomAvatars } from './components/randomAvatars.ojs';"
   },
   {
     "objectID": "index.html#what-we-do",
     "href": "index.html#what-we-do",
     "title": "Research Bazaar–Arizona",
-    "section": "",
-    "text": "Need help now? Want to talk? Go post in our Gitter: resbaz/Arizona\n\n\nWe support an ample community of researchers from diverse areas and levels of expertise. Whether you are just starting to learn programming or you are already an expert, we have a place for you!\n\n\n\nMeeting and working with experts from different fields can bring a new and fresh perspective to your own work! Even more, re-inforce your skill and help train a new generation of developers by teaching others.\n\n\n\nMeet new people in and outside of your field. Join our supportive network of data scientists and find out what we can do when we work together."
+    "section": "What we do",
+    "text": "What we do\nNeed help now? Want to talk? Go post in our Gitter: resbaz/Arizona\n\nEveryone is welcome\nWe support an ample community of researchers from diverse areas and levels of expertise. Whether you are just starting to learn programming or you are already an expert, we have a place for you!\n\n\nCollaboration\nMeeting and working with experts from different fields can bring a new and fresh perspective to your own work! Even more, re-inforce your skill and help train a new generation of developers by teaching others.\n\n\nCommunity Building\nMeet new people in and outside of your field. Join our supportive network of data scientists and find out what we can do when we work together."
   },
   {
     "objectID": "index.html#events",
     "href": "index.html#events",
     "title": "Research Bazaar–Arizona",
     "section": "Events",
-    "text": "Events\nStay up to date on announcements at our Twitter: @ResBazAZ\n(Optionally) RSVP for our events at Meetup: Our MeetUp\n\nCoffee and Code\n\n\n\n\nWhere: Catalyst Cafe at BSRL 1230 N Cherry Ave\nWhen: 8.30AM - 10.30AM, every Wednesday\nWhat: Whether you’re debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries – join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!\nWho you’re likely to see: {% include “./partials/randomAvatars.html”, teamName: “Coffee and Code” %}\n\n\n\n\nHacky Hour\n\n\nWhere: Snakes & Lattes 988 E University Blvd\nWhen: 4PM - 7PM, every Thursday\nWhat: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!\nWho you’re likely to see: {% include “./partials/randomAvatars.html”, teamName: “Hacky Hour” %}"
+    "text": "Events\nStay up to date on announcements at our Twitter: @ResBazAZ\n(Optionally) RSVP for our events at Meetup: Our MeetUp\n\nCoffee and Code\n\n\n\n\nWhere: Catalyst Cafe at BSRL 1230 N Cherry Ave\nWhen: 8.30AM - 10.30AM, every Wednesday\nWhat: Whether you’re debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries – join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!\nWho you’re likely to see:\n\nrandomAvatars(\"Coffee and Code\");\n\n\n\n\n\n\n\n\n\n\nHacky Hour\n\n\nWhere: Snakes & Lattes 988 E University Blvd\nWhen: 4PM - 7PM, every Thursday\nWhat: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!\nWho you’re likely to see:\n\nrandomAvatars(\"Hacky Hour\");"
   },
   {
     "objectID": "index.html#related-community-events",

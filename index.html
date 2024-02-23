@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -69,6 +103,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles/index.css">
@@ -157,6 +193,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="9" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 8;"><span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { randomAvatars } <span class="im">from</span> <span class="st">'./components/randomAvatars.ojs'</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
 <section id="what-we-do" class="level2">
 <h2 class="anchored" data-anchor-id="what-we-do">What we do</h2>
 <p><em>Need help now? Want to talk? Go post in our Gitter: <a href="https://gitter.im/resbaz/Arizona">resbaz/Arizona</a></em></p>
@@ -186,7 +230,15 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Where</strong>: <a href="https://union.arizona.edu/dining/dining-by-district/north/#Catalyst%20Caf%C3%A9">Catalyst Cafe at BSRL</a> 1230 N Cherry Ave</p>
 <p><strong>When</strong>: 8.30AM - 10.30AM, every Wednesday</p>
 <p><strong>What</strong>: Whether you’re debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries – join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!</p>
-<p><strong>Who you’re likely to see</strong>: {% include “./partials/randomAvatars.html”, teamName: “Coffee and Code” %}</p>
+<p><strong>Who you’re likely to see</strong>:</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="51" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 50;"><span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Coffee and Code"</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -197,7 +249,15 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Where</strong>: <a href="https://www.snakesandlattes.com/tucson">Snakes &amp; Lattes</a> 988 E University Blvd</p>
 <p><strong>When</strong>: 4PM - 7PM, every Thursday</p>
 <p><strong>What</strong>: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!</p>
-<p><strong>Who you’re likely to see</strong>: {% include “./partials/randomAvatars.html”, teamName: “Hacky Hour” %}</p>
+<p><strong>Who you’re likely to see</strong>:</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="73" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 72;"><span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a><span class="fu">randomAvatars</span>(<span class="st">"Hacky Hour"</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
 </div>
 <p><a href="images/hackyHour.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Hacky Hour"><img src="images/hackyHour.png" class="side-image img-fluid" alt="Hacky Hour"></a><br>
 </p>
@@ -239,6 +299,17 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IHJhbmRvbUF2YXRhcnMgfSBmcm9tICcuL2NvbXBvbmVudHMvcmFuZG9tQXZhdGFycy5vanMnO1xuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoicmFuZG9tQXZhdGFycyhcIkNvZmZlZSBhbmQgQ29kZVwiKTtcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InJhbmRvbUF2YXRhcnMoXCJIYWNreSBIb3VyXCIpO1xuIn1dfQ==
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -627,7 +698,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
