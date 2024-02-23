@@ -1,5 +1,6 @@
 name: Build and Deploy
 on: [push]
+# TODO: limit this flow to when we push to main
 permissions:
   contents: write
 jobs:

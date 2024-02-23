@@ -2,7 +2,13 @@
 title: "Research Bazaar–Arizona"
 page-layout: full
 css: styles/index.css
+execute:
+  echo: false
 ---
+
+```{ojs}
+import { randomAvatars } from './components/randomAvatars.ojs';
+```
 
 
 ## What we do
@@ -41,7 +47,10 @@ _(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com
 **What**: Whether you're debugging code or need ideas for how to introduce programming into your research, Coffee and Code is a great place to receive help and share knowledge! No specific problem? No worries -- join us at Coffee and Code to chit chat with other researchers in the morning. Coffee and Code is the best way to start your Wednesday!
 
 **Who you're likely to see**:
-{% include "./partials/randomAvatars.html", teamName: "Coffee and Code" %}
+
+```{ojs}
+randomAvatars("Coffee and Code");
+```
 
 :::
 
@@ -60,7 +69,10 @@ _(Optionally) RSVP for our events at Meetup: [Our MeetUp](https://www.meetup.com
 **What**: Hacking + Happy Hour = HackyHour! Every week, researchers, data scientists, and programmers around campus get together. Some people bring their programming problems to get help from those with more experience. Those without projects come to discuss their research, brainstorm new ideas, try out new technologies, or chit chat about data science!
 
 **Who you're likely to see**:
-{% include "./partials/randomAvatars.html", teamName: "Hacky Hour" %}
+
+```{ojs}
+randomAvatars("Hacky Hour");
+```
 
 :::
 
