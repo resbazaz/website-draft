@@ -18,6 +18,11 @@
   z-index: -1;
 }
 
+nav .text-gray-500:not(:hover),
+nav button {
+  color: white;
+}
+
 .split-section {
   display: flex;
   gap: 1em;
