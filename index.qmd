@@ -86,7 +86,7 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
 
 ## TODO: finish and delete this stuff
 
-- Figure out new quarto action
+- Figure out new quarto actions
 
 - Add UX@UA
 
