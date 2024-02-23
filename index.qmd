@@ -86,6 +86,8 @@ Code Commons also aims to provide the best aspects of workplace culture for peop
 
 ## TODO: finish and delete this stuff
 
+- Figure out new quarto action
+
 - Add UX@UA
 
 - Fix random avatars widget (see randomAvatars.html for details)... or maybe better: a webhook that auto-updates a gist + auto-republish of the page?
