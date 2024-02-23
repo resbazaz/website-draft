@@ -11,9 +11,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Update People Info 🙂 # This pulls the latest info about who is on which Github team
-        run: mkdir localData
         run: |
-          gh api graphql -f query='
+          mkdir localData && gh api graphql -f query='
             query {
               organization(login: "resbazaz") {
                 teams(first:100) {
