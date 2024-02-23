@@ -121,21 +121,3 @@ Their aims are for UX enthusiasts of all levels to:
 - Connect with UXers in Tucson and beyond
 
 [More Info](https://uxua.arizona.edu/)
-
-## TODO: finish and delete this stuff
-
-- Create Who We Are page
-
-- Add Coffee & Code widget, create necessary Github teams, and point random avatar widgets to the correct team
-
-- Revisit fonts (do we really want that Raleway thing up in the corner? Match with new footer logo?)
-
-- Decide what to do with the blog
-
-- Verify that new festival page links are still consistent
-
-- Copy code of conduct md from organization repo as part of build?
-
-- DONATE NOW button (stuff about our opencollective)
-
-- Actually include full instructions for editing + adding things in the README

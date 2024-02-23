@@ -9,7 +9,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: whoWeAre.qmd
+        text: Who We Are
 
 format:
   html:
