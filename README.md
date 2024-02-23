@@ -1,0 +1,63 @@
+# Arizona Research Bazaar website
+
+### Technologies used:
+
+- [Quarto](https://nodejs.org/)
+- [Eleventy](https://www.11ty.dev/)
+- [Alpine.js](https://github.com/alpinejs/alpine)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Getting Started
+
+### 1\. [Install Quarto](https://quarto.org/docs/get-started/)
+
+### 2\. Clone this Repository
+
+(TODO: need to update this if/when the repo moves!)
+
+```
+git clone https://github.com/resbazaz/website-draft
+# TODO: switch to this once the website is ready:
+# git clone https://github.com/resbazaz/website.git
+```
+
+### 3\. TODO
+
+(probably need python, r, etc setup... might be optional?)
+
+### 4. Previewing changes
+
+This should build the website on your machine, serve it locally, and open a browser window to see any changes as you make them:
+
+```
+cd website
+quarto preview
+```
+
+## How to contribute
+
+### Saving and pushing changes
+
+TODO: basic git fork + commit + PR flow
+
+### Editing page contents
+
+TODO: where to find markdown
+
+### Updating page elements
+
+TODO: where to find HTML, how includes and \_data work
+
+### Customizing styles
+
+TODO: Alpine, Tailwind stuff
+
+### Changing how Github builds and deploys the site
+
+TODO: `build.yml`
+
+Be advised that `src/_data/people.json` in your local respository is just an example file, that will be overwritten by the latest ResBazAZ teams on Github—so to update who is shown, and what teams are shown, you should edit the Github teams, not the JSON file.
+
+### Reconfiguring the site's infrastructure
+
+TODO: `.eleventy.js`
