@@ -1,5 +1,7 @@
 # Arizona Research Bazaar website
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/resbazaz/website-draft/quarto?urlpath=vscode)
+
 ### Technologies used:
 
 - [Quarto](https://nodejs.org/)
