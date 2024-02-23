@@ -1,9 +1,12 @@
 ---
-title: "Research Bazaar–Arizona"
+title: "Research Bazaar Arizona"
+subtitle: "Community · Skills Sharing · Digital Literacy"
 page-layout: full
 css: styles/index.css
 execute:
   echo: false
+title-block-banner: 'images/mainPageBackground.jpg'
+title-block-banner-color: white
 ---
 
 ```{ojs}
