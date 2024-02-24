@@ -9,8 +9,15 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: whoWeAre.qmd
-        text: Who We Are
+      - href: index.qmd#events
+        text: Events
+      # - href: whoWeAre.qmd
+      #  text: Who We Are
+  body-footer: |
+    ::: {.footer}
+      ![ResBaz Logo](/img/logos/ResBazAZrectanglelogo-small.png) \
+      [Code of Conduct](https://github.com/resbazaz/organization/blob/main/GOVERNANCE.md#code-of-conduct)
+    :::
 
 format:
   html:
