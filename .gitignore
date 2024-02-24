@@ -1,3 +1,15 @@
 .quarto
 _site
 /.quarto/
+
+# Binder things to ignore
+.bash_logout
+.bashrc
+.cache/
+.code-server/
+.config/
+.jupyter-server-log.txt
+.jupyter/
+.local/
+.profile
+.wget-hsts
