@@ -60,3 +60,19 @@ Be advised that `localData/people.json` in your local respository is just an exa
 ### Reconfiguring the site's infrastructure
 
 TODO: document `_quarto.yml`
+
+---
+
+# TODO: finish and delete this stuff
+
+- Create Who We Are page
+
+- Decide what to do with the blog
+
+- Verify that new festival page links are still consistent
+
+- Copy code of conduct md from organization repo as part of build?
+
+- DONATE NOW button (stuff about our opencollective)
+
+- Actually include full instructions for editing + adding things in the README

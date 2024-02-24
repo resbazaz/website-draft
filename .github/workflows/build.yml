@@ -13,7 +13,7 @@ jobs:
 
       - name: Update People Info 🙂 # This pulls the latest info about who is on which Github team
         run: |
-          mkdir data/semiSecretFiles && gh api graphql -f query='
+          gh api graphql -f query='
             query {
               organization(login: "resbazaz") {
                 teams(first:100) {
@@ -46,7 +46,7 @@ jobs:
                 }
               }
             }
-          ' > data/semiSecretFiles/people.json
+          ' > data/people.json
         env:
           GITHUB_TOKEN: ${{ secrets.ORGANIZATION_READER }}
 

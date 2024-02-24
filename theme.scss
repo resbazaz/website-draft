@@ -44,30 +44,38 @@ $min-contrast-ratio: 1.8 !default;
 
 $body-color: $gray-800 !default;
 
+// Footer
+
+.footer {
+  text-align: center;
+}
+
 // Fonts
 
-// stylelint-disable-next-line value-keyword-case
+$web-font-path: 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,800;1,400&family=Alegreya+SC:wght@500&display=swap' !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
 $font-family-sans-serif: 'Raleway', 'Calibri', 'Trebuchet MS', sans-serif !default;
 $font-family-serif: 'Alegreya SC', 'Georgia', 'Times New Roman', 'Times', serif !default;
 
-.navbar-brand {
-  font-family: $font-family-serif;
-  font-weight: 500;
+// Navbar
+
+.navbar {
+  .navbar-brand {
+    font-family: $font-family-serif;
+    font-weight: 500;
+  }
+  .navbar-nav .nav-link.active .menu-text {
+    color: $white;
+  }
 }
 
 // Tables
 
 $table-dark-bg: $dark !default;
 $table-dark-border-color: darken($dark, 5%) !default;
-
-/*-- scss:rules --*/
-
-// Variables
-
-$web-font-path: 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,800;1,400&family=Alegreya+SC:wght@500&display=swap' !default;
-@if $web-font-path {
-  @import url($web-font-path);
-}
 
 // Indicators
 

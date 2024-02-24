@@ -1,21 +1,15 @@
-.hero-wrapper {
-  position: relative;
-  padding-bottom: 4em;
+.quarto-title-banner {
+  height: 50vw;
+  text-align: center;
 }
-
-.hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  background-image: linear-gradient(#1b3442b6, #00000000),
-    url('/static/img/mainPageBackground.jpg');
-  background-position: center center;
-  background-repeat: none;
-  background-size: cover;
-  z-index: -1;
+.quarto-title {
+  margin: auto;
+}
+.quarto-title .title {
+  font-size: calc(3rem + 1vw);
+}
+.quarto-title .subtitle {
+  font-weight: 400;
 }
 
 .split-section {
