@@ -1,6 +1,8 @@
 ---
 layout: default
 title: ResBaz Arizona
+aliases:
+  - resbazTucson2020
 ---
 ## Workshop/Course Descriptions
 
