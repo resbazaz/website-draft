@@ -2,6 +2,14 @@
   height: 50vw;
   text-align: center;
 }
+
+@media screen and (orientation: portrait) {
+  .quarto-title-banner {
+    height: 100vh;
+    text-align: center;
+  }
+}
+
 .quarto-title {
   margin: auto;
 }
