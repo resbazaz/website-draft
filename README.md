@@ -67,10 +67,12 @@ TODO: document `_quarto.yml`
 
 - Decide what to do with the blog
 
-- Verify that new festival page links are still consistent
+- Figure out redirects for old festival links
 
 - Copy code of conduct md from organization repo as part of build?
 
 - DONATE NOW button (stuff about our opencollective)
 
 - Actually include full instructions for editing + adding things in the README
+
+- Need to update the github build workflow to only run when pushing to main
